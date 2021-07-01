@@ -1,0 +1,25 @@
+{
+  "name": "tinku-gecw",
+  "version": "1.0.0",
+  "description": "tinkerhub bot gecw",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arunthacharuthodi/Tinku-gecw.git"
+  },
+  "author": "arunthacharuthodi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arunthacharuthodi/Tinku-gecw/issues"
+  },
+  "homepage": "https://github.com/arunthacharuthodi/Tinku-gecw#readme",
+  "dependencies": {
+    "discord.js": "^12.5.3",
+    "dotenv": "^10.0.0",
+    "request": "^2.88.2"
+  }
+}
