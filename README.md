@@ -1,5 +1,7 @@
-# tinku-Discord-Bot
+# TINKERHUB DISCORD BOT
 
 
 
-![](readmeAssets/photo.gif) 
+![](readmeAssets/photo.gif) <br>
+
+
