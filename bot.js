@@ -153,8 +153,6 @@ function gotMessage(msg){
 
         }else if(whatistinkerhub.some(words => msg.content.includes(words))){
             msg.reply(whatistingerhubans);
-        }else{
-            msg.reply('sorry i dont understand !! if you need any help you can always connect with @adminstrator')
         }
     }
 }
