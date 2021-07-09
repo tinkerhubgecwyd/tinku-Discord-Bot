@@ -104,7 +104,7 @@ const whatisgecw = [
 client.on('message', gotMessage);
 
 function gotMessage(msg){
-    if(msg.channel.id == process.env.CHANNELONE || msg.channel.id == process.env.CHANNELTWO || msg.channel.id == process.env.CHANNELTHREE || msg.channel.id == 863112210976079933){
+    if(msg.channel.id == process.env.CHANNELONE || msg.channel.id == process.env.CHANNELTWO || msg.channel.id == process.env.CHANNELTHREE || msg.channel.id == process.env.TESTCHANNEL){
         if(msg.author.bot){return null
         }else if(msg.content.startsWith(PREFIX)){
             const [CMD_NAME, ...arg] = msg.content
