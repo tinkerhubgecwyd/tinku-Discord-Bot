@@ -107,7 +107,6 @@ const howtojointinkerhub = [
   'how to be a community member',
   'how to get community member role',
   'how to join in tinkerhub'
-  '?'
   ];
 
 client.on('message', gotMessage);
