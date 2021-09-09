@@ -101,6 +101,15 @@ const whatisgecw = [
 
 ];
 
+//how tk join tinkerhub
+const howtojointinkerhub = [
+  'how to join tinkerhub gecw',
+  'how to be a community member',
+  'how to get community member role',
+  'how to join in tinkerhub'
+  '?'
+  ]
+
 client.on('message', gotMessage);
 
 function gotMessage(msg){
@@ -151,12 +160,19 @@ function gotMessage(msg){
             }
 
 
-        }else if(whatistinkerhub.some(words => msg.content.includes(words))){
+        }else if(howtojointinkerhub.some(words => msg.content.includes(words))){
+            const response2 = '1. register in tinkerhub gecw chapter by this link \n 2. after registration you have to register in tinkerhub official website link : https://join.tinkerhub.org \n 3.join in both discord servers (both offical and college ) ';
+            
+            if (response2 != null){
+                msg.reply(response2);
+            }
+        }
+
+else if(whatistinkerhub.some(words => msg.content.includes(words))){
             msg.reply(whatistingerhubans);
         }
     }
 }
-
 
 
 
