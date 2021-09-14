@@ -1,3 +1,3 @@
 # TINKERHUB DISCORD BOT
 
-![](./photo.gif)
+![](/photo.gif)
