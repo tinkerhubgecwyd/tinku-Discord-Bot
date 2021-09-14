@@ -1,7 +1,3 @@
-# TINKERHUB DISCORD BOT
+**OPEN PR TINKERHUB DISCORD BOT**
 
-
-
-![](readmeAssets/photo.gif) <br>
-
-
+![contribute_banner](readme_banner.gif)
