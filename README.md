@@ -1,3 +1,3 @@
-# TINKERHUB DISCORD BOT
+**OPEN PR TINKERHUB DISCORD BOT**
 
-![](/photo.gif)
+![contribute_banner](readme_banner.gif)
